@@ -1,0 +1,28 @@
+@import url(reset.css);
+
+body {
+	background-color: lightgrey;
+	background-image: url(../img/Earth.jpg);
+}
+
+.container {
+	width: 450px;
+	height: 500px;
+	background-color: #4682B4;
+	margin: 250px auto 0 auto;
+	text-align: center;
+}
+
+input, .result {
+	width: 300px;
+	height: 50px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+}
+.result {
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	margin: 250px auto 0 auto;
+}
