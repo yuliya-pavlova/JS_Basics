@@ -1,0 +1,17 @@
+@import url(reset.css);
+
+body {
+	background-color: lightgrey;
+}
+
+input {
+	display: flex;
+	margin: 20px auto;
+    /*align-items: center;*/
+	align-items: flex-start;
+    text-align: center;
+}
+
+form {
+		text-align: center;
+}
