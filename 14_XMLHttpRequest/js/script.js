@@ -20,8 +20,8 @@ form.onsubmit = function(e) {
 	} else {
 		var DATA = JSON.parse(xhr.responseText);
 		console.log(DATA);
-		insert.innerHTML = DATA.main.temp - 273
-	//document.write(DATA.main.temp - 273);
+		insert.innerHTML = 'Температура: ' + Math.round(DATA.main.temp - 273) + '℃<br \/>' + 'Скорость ветра: ' + DATA.wind.speed + ' м/с'
+		//document.write(DATA.main.temp - 273);
 	}
 }
 
